@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Euskal Tiempo</string>
+    <string name="setting_name">Consultas:</string>
+    <string name="consulta_1">Irún</string>
+    <string name="consulta_2">Jaizkibel</string>
+    <string name="consulta_3">Higuer</string>
+    <string name="consulta_4">Zarautz</string>
+</resources>
