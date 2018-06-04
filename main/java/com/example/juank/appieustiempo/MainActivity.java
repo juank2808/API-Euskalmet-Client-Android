@@ -77,14 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    private void recibir(){
-        new Thread(new ProcessConSendRec()).start();
-    }
-
-    public void sedValues(View view){
-        Intent intent = new Intent(this,RegistroActivity.class);
-        intent.putExtra(EXTRA_MESSAGE,con.conexion().toString());
-    }
+    
 
 
 }

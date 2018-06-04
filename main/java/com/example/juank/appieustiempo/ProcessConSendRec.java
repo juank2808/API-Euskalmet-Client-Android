@@ -34,6 +34,7 @@ public class ProcessConSendRec extends AsyncTask<Void, Void, Void> implements Ru
     private HandlerThread handlerThreadReceiver;
     private Handler handlerRecibir;
     private Handler handlerHiloP;
+
     public Socket conexion(){
         try {
             socket=new Socket("10.0.2.2",2018);
