@@ -21,7 +21,7 @@ import java.net.Socket;
  * Created by juank on 13/03/2018.
  */
 
-public class ProcessConSendRec extends AsyncTask<Void, Void, Void> implements Runnable{
+public class ProcessConSendRec extends AsyncTask<Void, Void, Void>{
 
     private static Socket socket;
 
@@ -116,9 +116,6 @@ public class ProcessConSendRec extends AsyncTask<Void, Void, Void> implements Ru
 
     }
 
-    @Override
-    public void run() {
-        //recibirMSJ();
-    }
+    
 }
 
